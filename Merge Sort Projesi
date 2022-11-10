@@ -1,0 +1,8 @@
+[16,21,11,8,12,22] -> Merge Sort:
+  1: Öncelikle diziyi tam ortadan iki parçaya ayırıyoruz. [16,21,11] [8,12,22]
+  2: İkiye ayırdığımız dizileri tekrardan ikişer parçaya ayırıyoruz. [16,21] [11] [8,12] [22]
+  3: Ayırdığımız ikili parçaları kendi aralarında sıralamaya başlıyoruz. [16,21] [11] [8,12] [22]
+  4: Küçük parçaları tekrardan sıralıyoruz. [11] [8,12] [16,21] [22]
+  5: Oluşturduğumuz listeyi tekrar array düzenine sokuyoruz. [8,11,12,16,21,22]
+  
+ O(6 * log6) şeklinde belirlenir.
